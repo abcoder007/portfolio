@@ -107,7 +107,7 @@ footer {
     background: #0a8ba0;
 }
 .has-patterns{
-  background: url(../images/pattern-1.jpg)no-repeat;
+  background: url(../../images/pattern-1.jpg)no-repeat;
      background-size: 100%;
    
  }
