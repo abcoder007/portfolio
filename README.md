@@ -23,3 +23,9 @@ Open [http://127.0.0.1:4173/](http://127.0.0.1:4173/).
 ## Verification
 
 Run `node --check app.js` for JavaScript syntax. Check the page in a browser when changing layout or interactions. Google Fonts use system fallbacks; email links open the visitor’s mail application. The site has no form backend or analytics tracking.
+
+## Structured data
+
+`index.html` contains one static JSON-LD graph in `script#portfolio-schema`: `WebSite`, `ProfilePage`, `Person`, dated employment and freelance roles, organizations, and an `ItemList` of nine projects. Portfolio project entries use `CreativeWork`; the two public source repositories use `SoftwareSourceCode`.
+
+Keep this graph aligned with the visible page and project details in `app.js`. Preserve month-level work dates, omit an end date for the current role, and keep PetPals marked as in development. Validate changes with [Schema.org Validator](https://validator.schema.org/) and check supported Google features with [Rich Results Test](https://search.google.com/test/rich-results). Structured data does not guarantee a particular search appearance.
