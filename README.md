@@ -1,6 +1,6 @@
 # Abdallah Id Lahcen — Portfolio
 
-Personal portfolio built with HTML, CSS, and vanilla JavaScript. Live website: [GitHub Pages](https://abcoder007.github.io/portfolio/). The custom domain abdev.online can be connected separately.
+Personal portfolio built with HTML, CSS, and vanilla JavaScript. Website: [abdev.online](https://abdev.online/), hosted by GitHub Pages.
 
 ## GitHub Pages
 
