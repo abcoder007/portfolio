@@ -26,9 +26,9 @@ Run `node --check app.js` for JavaScript syntax. Check the page in a browser whe
 
 ## Structured data
 
-`index.html` contains one static JSON-LD graph in `script#portfolio-schema`: `WebSite`, `ProfilePage`, `Person`, dated employment and freelance roles, organizations, and an `ItemList` of nine projects. Portfolio project entries use `CreativeWork`; the two public source repositories use `SoftwareSourceCode`.
+`index.html` contains one static JSON-LD graph in `script#portfolio-schema`: `WebSite`, `ProfilePage`, `Person`, dated employment and freelance roles, organizations, the current CV as a `DigitalDocument`, and an `ItemList` of nine projects. Portfolio project entries use `CreativeWork`; the two public source repositories use `SoftwareSourceCode`. The person's skill topics cover the visible toolkit; the profile and person link to the CV document.
 
-Keep this graph aligned with the visible page and project details in `app.js`. Preserve month-level work dates, omit an end date for the current role, and keep PetPals marked as in development. Validate changes with [Schema.org Validator](https://validator.schema.org/) and check supported Google features with [Rich Results Test](https://search.google.com/test/rich-results). Structured data does not guarantee a particular search appearance.
+Keep this graph aligned with the visible page and project details in `app.js`. When replacing the CV, update the document URL and modification date along with the download links. Preserve month-level work dates, omit an end date for the current role, and keep PetPals marked as in development. Validate changes with [Schema.org Validator](https://validator.schema.org/) and check supported Google features with [Rich Results Test](https://search.google.com/test/rich-results). Structured data does not guarantee a particular search appearance.
 
 ## Updating the CV
 

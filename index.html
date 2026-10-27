@@ -30,6 +30,7 @@
       "isPartOf": { "@id": "https://abdev.online/#website" },
       "mainEntity": { "@id": "https://abdev.online/#person" },
       "mentions": [
+        { "@id": "https://abdev.online/#cv" },
         { "@id": "https://abdev.online/#projects" },
         { "@id": "https://abdev.online/#project-soulsync" },
         { "@id": "https://abdev.online/#project-petpals" },
@@ -59,7 +60,7 @@
         "https://github.com/abdeldev007",
         "https://www.codester.com/ABDev"
       ],
-      "knowsAbout": ["Advanced Android development", "Kotlin", "Java", "Jetpack Compose", "Kotlin Multiplatform", "MVVM", "Firebase", "Retrofit", "Room", "Unit testing", "UI testing", "Codex"],
+      "knowsAbout": ["Advanced Android development", "Kotlin", "Java", "Jetpack Compose", "Android SDK", "Kotlin Multiplatform", "MVVM", "Hilt", "Flow", "LiveData", "Retrofit", "Room", "SQLite", "Unit testing", "UI testing", "Firebase", "Authentication", "Push notifications", "Google Maps", "Stripe", "Codex"],
       "knowsLanguage": ["Tamazight", "Arabic", "English", "French"],
       "alumniOf": [
         { "@type": "EducationalOrganization", "name": "OFPPT, Tafraout" },
@@ -93,7 +94,20 @@
         "description": "Part-time freelance client work through Fiverr, based in Agadir. Android TV applications, authentication, bug fixes, and IPTV streaming applications.",
         "hasOccupation": { "@type": "Occupation", "name": "Freelance Android Developer" }
       },
-      "mainEntityOfPage": { "@id": "https://abdev.online/#profile" }
+      "mainEntityOfPage": { "@id": "https://abdev.online/#profile" },
+      "subjectOf": { "@id": "https://abdev.online/#cv" }
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://abdev.online/#cv",
+      "name": "Abdallah Id Lahcen - CV",
+      "description": "Current CV covering Android development experience, technical skills, personal projects, education and languages.",
+      "url": "https://abdev.online/assets/abdallah-id-lahcen-cv.pdf?v=20261027",
+      "encodingFormat": "application/pdf",
+      "inLanguage": "en",
+      "dateModified": "2026-10-27",
+      "author": { "@id": "https://abdev.online/#person" },
+      "about": { "@id": "https://abdev.online/#person" }
     },
     {
       "@type": "Organization",
